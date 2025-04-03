@@ -1,26 +1,27 @@
 <?php session_start();
 include_once('includes/config.php');
-if(strlen( $_SESSION["aid"])==0)
-{   
-header('location:logout.php');
+if (strlen($_SESSION["aid"]) == 0) {
+    header('location:logout.php');
 } else {
 
 
 
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+
     <head>
-        <title>Online Book Store | Manage All Orders</title>
+        <title>Bookstore | Manage All Orders</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <script src="js/all.min.js" crossorigin="anonymous"></script>
     </head>
+
     <body class="sb-nav-fixed">
- <?php include_once('includes/header.php');?>
+        <?php include_once('includes/header.php'); ?>
         <div id="layoutSidenav">
-       <?php include_once('includes/sidebar.php');?>
+            <?php include_once('includes/sidebar.php'); ?>
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
@@ -32,7 +33,7 @@ header('location:logout.php');
                         <div class="card mb-4">
                             <div class="card-header">
                                 <i class="fas fa-table me-1"></i>
-                               All Order Details
+                                All Order Details
                             </div>
                             <div class="card-body">
                                 <table id="datatablesSimple">
@@ -59,37 +60,38 @@ header('location:logout.php');
                                         </tr>
                                     </tfoot>
                                     <tbody>
-<?php $query=mysqli_query($con,"SELECT orders.id,orderNumber,totalAmount,orderStatus,orderDate,users.name,users.contactno 
+                                        <?php $query = mysqli_query($con, "SELECT orders.id,orderNumber,totalAmount,orderStatus,orderDate,users.name,users.contactno 
     FROM `orders` join users on users.id=orders.userId");
-$cnt=1;
-while($row=mysqli_fetch_array($query))
-{
-?>  
+                                        $cnt = 1;
+                                        while ($row = mysqli_fetch_array($query)) {
+                                        ?>
 
-                                <tr>
-                                            <td><?php echo htmlentities($cnt);?></td>
-                                            <td><?php echo htmlentities($row['orderNumber']);?></td>
-                                            <td><?php echo htmlentities($row['name']);?></td>
-                                            <td> <?php echo htmlentities($row['totalAmount']);?></td>
-                                            <td><?php echo htmlentities($row['orderDate']);?></td>
-                                              <td><?php if($row['orderStatus']==''):
-                                            echo "Not Processed Yet";
-                                        else:
-                                            echo htmlentities($row['orderStatus']);
-                                            endif;?></td>
-                                            <td>
-                                            <a href="order-details.php?orderid=<?php echo $row['id']?>" target="_blank">
-                                                <i class="fas fa-file fa-2x" title="View Order Details"></i></a></td>
-                                        </tr>
-                                        <?php $cnt=$cnt+1; } ?>
-                                       
+                                            <tr>
+                                                <td><?php echo htmlentities($cnt); ?></td>
+                                                <td><?php echo htmlentities($row['orderNumber']); ?></td>
+                                                <td><?php echo htmlentities($row['name']); ?></td>
+                                                <td> <?php echo htmlentities($row['totalAmount']); ?></td>
+                                                <td><?php echo htmlentities($row['orderDate']); ?></td>
+                                                <td><?php if ($row['orderStatus'] == ''):
+                                                        echo "Not Processed Yet";
+                                                    else:
+                                                        echo htmlentities($row['orderStatus']);
+                                                    endif; ?></td>
+                                                <td>
+                                                    <a href="order-details.php?orderid=<?php echo $row['id'] ?>" target="_blank">
+                                                        <i class="fas fa-file fa-2x" title="View Order Details"></i></a>
+                                                </td>
+                                            </tr>
+                                        <?php $cnt = $cnt + 1;
+                                        } ?>
+
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                     </div>
                 </main>
-<?php include_once('includes/footer.php');?>
+                <?php include_once('includes/footer.php'); ?>
                 </footer>
             </div>
         </div>
@@ -98,5 +100,6 @@ while($row=mysqli_fetch_array($query))
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
         <script src="js/datatables-simple-demo.js"></script>
     </body>
-</html>
+
+    </html>
 <?php } ?>

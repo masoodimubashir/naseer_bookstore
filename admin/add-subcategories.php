@@ -23,7 +23,7 @@ echo "<script>window.location.href='manage-subcategories.php'</script>";
 <html lang="en">
     <head>
        
-        <title>OBSMS | Add Subcategories</title>
+        <title>Bookstore | Add Subcategories</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="js/all.min.js" crossorigin="anonymous"></script>
     </head>

@@ -20,7 +20,7 @@ echo "<script>window.location.href='admin-profile.php'</script>";
 <html lang="en">
     <head>
         
-        <title>OBSMS | Admin Profile</title>
+        <title>Bookstore | Admin Profile</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="js/all.min.js" crossorigin="anonymous"></script>
     </head>
