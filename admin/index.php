@@ -25,7 +25,7 @@ echo "<script>alert('Invalid username or password');</script>";
 <html lang="en">
     <head>
        
-        <title>OBS | Admin Login</title>
+        <title>Online Bookstore | Admin Login</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>

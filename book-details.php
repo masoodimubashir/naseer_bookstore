@@ -48,7 +48,7 @@ echo "<script>alert('Product aaded in cart');</script>";
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Online Book Store||Book Detail</title>
+	<title>Online Bookstore | Book Detail</title>
 	
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->

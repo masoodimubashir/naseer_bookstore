@@ -23,7 +23,7 @@ echo '<script>alert("Something Went Wrong. Please try again.")</script>';
 <html lang="en">
     <head>
         
-        <title>OBSMS | About us</title>
+        <title>Online Bookstore | About us</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="js/all.min.js" crossorigin="anonymous"></script>
         <script src="nic.js" type="text/javascript"></script>

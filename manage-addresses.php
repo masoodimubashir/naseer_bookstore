@@ -35,7 +35,7 @@ echo "<script>alert('Something went wrong. Please try again.');</script>";
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Online Book Store||Checkout</title>
+	<title>Online Bookstore | Checkout</title>
 	
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->

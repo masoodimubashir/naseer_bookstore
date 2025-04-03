@@ -39,7 +39,7 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Online Book Store||Payment</title>
+	<title>Online Bookstore | Payment</title>
 	
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->

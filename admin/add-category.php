@@ -24,7 +24,7 @@ echo "<script>window.location.href='manage-categories.php'</script>";
 <html lang="en">
     <head>
         
-        <title>Bookstore | Add Category</title>
+        <title>Online Bookstore | Add Category</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="js/all.min.js" crossorigin="anonymous"></script>
     </head>

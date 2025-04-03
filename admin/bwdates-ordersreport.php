@@ -12,7 +12,7 @@ header('location:logout.php');
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Online Book Store | Between Dates Order Report</title>
+        <title>Online Bookstore | Between Dates Order Report</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <script src="js/all.min.js" crossorigin="anonymous"></script>

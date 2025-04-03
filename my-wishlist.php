@@ -28,7 +28,7 @@ if ($result) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Online Book Store||Wishlit</title>
+	<title>Online Bookstore | Wishlit</title>
 	
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->

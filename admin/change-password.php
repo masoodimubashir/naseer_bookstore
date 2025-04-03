@@ -29,7 +29,7 @@ echo "<script type='text/javascript'> document.location ='change-password.php'; 
 <html lang="en">
     <head>
        
-        <title>OBSMS | Admin Change Password</title>
+        <title>Online Bookstore | Admin Change Password</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="js/all.min.js" crossorigin="anonymous"></script>
                <script type="text/javascript">

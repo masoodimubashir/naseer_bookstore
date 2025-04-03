@@ -26,7 +26,7 @@ echo "<script>alert('Password Changed Successfully !!');</script>";
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Online Book Store || Change Password</title>
+	<title>Online Bookstore | Change Password</title>
 	
 
 <!--===============================================================================================-->

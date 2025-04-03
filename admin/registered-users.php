@@ -16,7 +16,7 @@ echo "<script>window.location.href='manage-categories.php'</script>";
 <html lang="en">
     <head>
         
-        <title>Online Book Store | Manage Registered userd</title>
+        <title>Online Bookstore | Manage Registered userd</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <script src="js/all.min.js" crossorigin="anonymous"></script>

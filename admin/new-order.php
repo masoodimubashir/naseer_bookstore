@@ -13,7 +13,7 @@ header('location:logout.php');
 <html lang="en">
     <head>
       
-        <title>Online Book Store | Manage New Orders</title>
+        <title>Online Bookstore | Manage New Orders</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <script src="js/all.min.js" crossorigin="anonymous"></script>

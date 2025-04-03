@@ -56,7 +56,7 @@ echo "<script>window.location.href='add-books.php'</script>";
 <html lang="en">
     <head>
       
-        <title>OBSMS | Add Books</title>
+        <title>Online Bookstore | Add Books</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="js/all.min.js" crossorigin="anonymous"></script>
         <script src="js/jquery-3.5.1.min.js"></script>

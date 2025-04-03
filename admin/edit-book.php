@@ -34,7 +34,7 @@ echo "<script>window.location.href='manage-books.php'</script>";
 <html lang="en">
     <head>
       
-        <title>OBSMS | Edit Book</title>
+        <title>Online Bookstore | Edit Book</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="js/all.min.js" crossorigin="anonymous"></script>
         <script src="js/jquery-3.5.1.min.js"></script>

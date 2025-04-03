@@ -5,7 +5,7 @@ include_once('includes/config.php');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Online Book Store||About Us Page</title>
+	<title>Online Bookstore ||About Us Page</title>
 	
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">

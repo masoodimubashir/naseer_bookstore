@@ -16,7 +16,7 @@ echo "<script type='text/javascript'> document.location ='my-cart.php'; </script
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Online Book Store||My Cart</title>
+	<title>Online Bookstore | My Cart</title>
 	
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->

@@ -27,7 +27,7 @@ echo "<script>alert('Not register something went worng');</script>";
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Online Book Store || Signup</title>
+	<title>Online Bookstore | Signup</title>
 	
 
 <!--===============================================================================================-->

@@ -8,7 +8,7 @@ if(strlen($_SESSION['id'])==0)
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Online Book Store||My Orders Details</title>
+	<title>Online Bookstore | My Orders Details</title>
 	
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->

@@ -23,7 +23,7 @@ echo "<script>alert('Something went wrong. Please try again.');</script>";
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Online Book Store || Login</title>
+	<title>Online Bookstore | Login</title>
 	
 
 <!--===============================================================================================-->

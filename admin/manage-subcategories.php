@@ -19,7 +19,7 @@ echo "<script>window.location.href='manage-subcategories.php'</script>";
 <html lang="en">
     <head>
         
-        <title>OBSMS | Manage Sub-Categories</title>
+        <title>Online Bookstore | Manage Sub-Categories</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <script src="js/all.min.js" crossorigin="anonymous"></script>

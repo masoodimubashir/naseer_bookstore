@@ -22,7 +22,7 @@ echo "<script>window.location.href='manage-categories.php'</script>";
 <html lang="en">
     <head>
         
-        <title>OBSMS | Edit Category</title>
+        <title>Online Bookstore | Edit Category</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="js/all.min.js" crossorigin="anonymous"></script>
     </head>

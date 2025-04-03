@@ -24,7 +24,7 @@ echo "<script type='text/javascript'> document.location ='password-recovery.php'
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Online Book Store || Password Recovery</title>
+	<title>Online Bookstore | Password Recovery</title>
 	
 
 <!--===============================================================================================-->

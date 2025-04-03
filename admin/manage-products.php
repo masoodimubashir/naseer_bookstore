@@ -18,7 +18,7 @@ echo "<script>window.location.href='manage-tblbooks.php'</script>";
 <html lang="en">
     <head>
  
-        <title>Shopping Portal | Manage Books</title>
+        <title>Online Bookstore | Manage Books</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <script src="js/all.min.js" crossorigin="anonymous"></script>
