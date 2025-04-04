@@ -155,7 +155,7 @@ while($row=mysqli_fetch_array($query))
 
 						<span class="mtext-106 cl2">
 <span  style="text-decoration: line-through;">
-							$<?php echo htmlentities($row['BookPriceBeforeDiscount']);?></span> - $<?php echo htmlentities($row['BookPriceAfterDiscount']);?>
+							₹<?php echo htmlentities($row['BookPriceBeforeDiscount']);?></span> - ₹<?php echo htmlentities($row['BookPriceAfterDiscount']);?>
 
 						</span>
 						<br />
