@@ -84,12 +84,12 @@ error:function (){}
 
 
 	<!-- Content page -->
-	<section class="bg0 p-t-104 p-b-116">
-		<div class="container">
-			<div class="flex-w flex-tr">
-				<div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
+	<section class="bg0 p-t-104 p-b-116" style="background-color: grey;">
+		<div class="container" >
+			<div class="flex-w flex-tr" style="display: flex; justify-content: center; align-items: center;">	
+				<div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md" style="border: 1px solid black; border-radius:5px; background-color: white;">	
 					<form method="post" name="signup">
-						<h4 class="mtext-105 cl2 txt-center p-b-30">
+						<h4 class="mtext-105 cl2 txt-center p-b-30" style="color: #007bff;">
 							Registrations
 						</h4>
 
@@ -108,6 +108,7 @@ error:function (){}
 						<div class="bor8 m-b-20 how-pos4-parent">
 							<label>Password</label>
 							<input type="password" name="inputuserpwd" class="form-control" required>
+							<small><a href="login.php">SignIn</a></small>
 						</div>
 
 						
@@ -115,6 +116,7 @@ error:function (){}
 						<button class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer" type="submit" name="submit" id="submit">
 							Submit
 						</button>
+							 
 					</form>
 				</div>
 

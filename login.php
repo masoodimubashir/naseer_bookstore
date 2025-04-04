@@ -70,12 +70,12 @@ exit();
 
 
 	<!-- Content page -->
-	<section class="bg0 p-t-104 p-b-116">
+	<section class="bg0 p-t-104 p-b-116" style="background-color: grey;">
 		<div class="container">
-			<div class="flex-w flex-tr">
-				<div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
+			<div class="flex-w flex-tr" style="display: flex; justify-content: center; align-items: center;">
+				<div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md" style="border: 1px solid black; border-radius: 5px; background-color: white;">
 					<form method="post" name="login">
-						<h4 class="mtext-105 cl2 txt-center p-b-30">
+						<h4 class="mtext-105 cl2 txt-center p-b-30" style="color: #007bff;">
 							Login
 						</h4>
 

@@ -37,7 +37,7 @@ echo "<script>alert('Invalid username or password');</script>";
                         <div class="row justify-content-center">
                             <div class="col-lg-5">
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Online Book Store | Admin Login</h3></div>
+                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Online Bookstore | Admin Penal</h3></div>
                                     <div class="card-body">
                                         <form method="post">
                                             <div class="form-floating mb-3">
