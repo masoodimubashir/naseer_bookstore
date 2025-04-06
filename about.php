@@ -55,7 +55,7 @@ $cnt=1;
 while ($row=mysqli_fetch_array($ret)) {
 ?>
 						<h3 class="mtext-111 cl2 p-b-16">
-							Our Story
+							<?php  echo $row['PageTitle'];?>
 						</h3>
 
 						<p class="stext-113 cl6 p-b-26">
